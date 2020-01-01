@@ -1,0 +1,6 @@
+cmd
+s us a nice day
+zwj: yes sure
+cmd:OK CA VA
+ZWJ: PAS MALcest fini ce jour
+good nite
