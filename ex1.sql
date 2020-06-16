@@ -1,4 +1,4 @@
-cmd
+cmdxxx
 ex1取得每个部门最高薪水的人员名称
 1取得每个部门最高薪水
 select deptno,max(sal) as maxsal from emp group by deptno;
