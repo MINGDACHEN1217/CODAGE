@@ -1,4 +1,5 @@
-cmd
+cmdwoaini
+>>>>>>> 34dc48dc21859f22dabd7c1a62c152bb46547f79
 ex1取得每个部门最高薪水的人员名称
 1取得每个部门最高薪水
 select deptno,max(sal) as maxsal from emp group by deptno;
@@ -233,6 +234,7 @@ select sal,ename from emp order by sal desc limit 5,5;
 | FORD   | 1981-12-03 |
 | JAMES  | 1981-12-03 |
 +--------+------------+
+<<<<<<< HEAD
 日期也可以进行排列
 
 ex12 取得每个薪水等级有多少员工
@@ -507,3 +509,5 @@ select d.deptno,ifnull(avg(e.sal),0) as avgsal ,ifnull(avg((to_days(now())-to_da
 |     30 | 1566.666667 | 38.73241667 |              6 | SALES       |
 |     40 |    0.000000 |  0.00000000 |              0 | OPERATIONS  |
 +--------+-------------+-------------+----------------+-------------+
+=======
+>>>>>>> 34dc48dc21859f22dabd7c1a62c152bb46547f79
